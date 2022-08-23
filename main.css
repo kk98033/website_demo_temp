@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(56, 59, 59);
+}
+
+.main_title {
+    height: 500px;
+    padding-top: 200px;
+    padding-left: 10%;
+    color: white;
+    /* background-color: black; */
+    /* background-image: url('images/main.png');; */
+}
+
+.main_intro {
+    font-size: 20px;
+    max-width: 50%;
+}
+
+.title_container {
+    display: inline-block;
+    position: absolute;
+
+    font-size: 50px;
+    max-width: 50%;
+}
+
+.main_subtitle {
+    font-size: 0.5em;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: fit-content;
+}
+
+.intro_card {
+    margin: 30px;
+    width: 25rem;
+    height: 25rem;
+
+    position: relative;
+    top: -100px;
+}
+
+.bulletin {
+    padding: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+.bulletin_nav_con {
+
+}
+
+.nav_btn {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+
+    font-size: 20px;
+    max-width: 200px;
+    margin-left: 30px;
+}
+
+.botton_line {
+    margin-left: 30px;
+}
+
+.bulletin_container {
+    margin-left: 30px;
+    /* background-color: rgb(21, 21, 21); */
+    height: 500px;
+}
+
+.content {
+    color: white;
+    max-height: 100px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+.spectial_bulletin {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.sb_card {
+    width: 18rem;
+    margin: 30px;
+    color: black;
+
+    position: relative;
+}
+
+.card_date {
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+.spectial_bulletin_container {
+    display: flex;
+    justify-content: center;
+}
+
+.sb_btn {
+    margin-right: 50px;
+    float: right;
+}
+
+.infromation {
+    height: 300px;
+    margin-bottom: 200px;
+    text-align: center;
+    color: white;
+    
+    position: relative;
+}
+
+.info_bg {
+    height: 500px;
+    background-image: url('images/about_us.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.information_container {
+    padding: 50px;
+    z-index: 99;
+
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+.cardTitle {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.parallax-window {
+	min-height: 500px;
+	background: transparent;
+}
+
+/* .slide_btn_BG {
+    background-color: gray;
+    opacity: 30%;
+    height: 30%;
+    width: 10%;
+    top: 35%;
+} */
