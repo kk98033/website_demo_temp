@@ -55,8 +55,11 @@ body {
     color: white;
 }
 
-.bulletin_nav_con {
-
+.search_input {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background: transparent;
 }
 
 .nav_btn {
